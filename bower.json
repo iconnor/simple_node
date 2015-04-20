@@ -1,0 +1,20 @@
+{
+  "name": "simple-node",
+  "version": "0.1.0",
+  "description": "Simple Node Project",
+  "homepage": "https://github.com/iconnor/simple-node",
+  "authors": [
+    "Ian Connor <ian.connor@gmail.com>"
+  ],
+  "keywords": [],
+  "main": "./dist/simple-node.js",
+  "dependencies": {},
+  "ignore": [
+    "coverage.html",
+    "node_modules",
+    "lib-cov",
+    "test"
+  ],
+  "private": true,
+  "license": "None"
+}

@@ -1,0 +1,54 @@
+{
+  "name": "simple-node",
+  "description": "Simple Node Project",
+  "version": "0.1.0",
+  "homepage": "https://github.com/iconnor/simple-node",
+  "author": {
+    "name": "Ian Connor",
+    "email": "ian.connor@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/iconnor/simple-node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/iconnor/simple-node/issues"
+  },
+  "licenses": [
+    {
+      "type": "None",
+      "url": "https://github.com/iconnor/simple-node/blob/master/LICENSE"
+    }
+  ],
+  "main": "lib/simple-node.js",
+  "files": [
+    "dist",
+    "lib"
+  ],
+  "engines": {
+      "node": ">= 0.10.26",
+      "npm": ">=1.4.3"
+  },
+  "scripts": {
+    "test": "./node_modules/gulp/bin/gulp.js test"
+  },
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "bower": "^1.3.9",
+    "browserify": "^6.1.0",
+    "gulp-mocha-phantomjs": "^0.5.0",
+    "phantomjs": "^1.9.7-15",
+    "jsdoc-to-markdown": "^0.5.7",
+    "gulp": "^3.8.7",
+    "gulp-clean": "^0.3.1",
+    "gulp-help": "^1.3.1",
+    "gulp-jshint": "^1.8.4",
+    "gulp-jscs": "^1.3.1",
+    "gulp-instrument": "^0.1.0",
+    "vinyl-source-stream": "^1.0.0",
+    "jshint-stylish": "^1.0.0"
+  },
+  "keywords": []
+}
